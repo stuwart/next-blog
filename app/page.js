@@ -1,15 +1,12 @@
 import Header from "/components/header"
-
+import HoverMenu from "@/components/hoverMenu"
 
 export default function Page() {
   return (
     <div>
       <Header />
-      <div className='fixed'>
-        <div>123</div>
-        <div>456</div>
-      </div>
-      
+      <HoverMenu />
+
       <div></div>
     </div>
 

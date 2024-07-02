@@ -1,4 +1,8 @@
-
+import Header from "@/components/header"
 export default function Page(){
-    return <p>123</p>
+    return (
+        <div>
+            <Header />
+        </div>
+    )
 }

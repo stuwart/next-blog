@@ -1,11 +1,11 @@
-import Header from "/components/header"
-import HoverMenu from "@/components/hoverMenu"
+import Header from "./components/header"
+import CategoryList from './components/CategoryList';
 
 export default function Page() {
   return (
     <div>
       <Header />
-      <HoverMenu />
+      
 
       <div></div>
     </div>

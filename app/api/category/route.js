@@ -1,4 +1,4 @@
-
+import { NextResponse } from "next/server";
 import { GetCategory } from "@/app/server/action";
 export async function GET(request) {
     try {
@@ -9,4 +9,8 @@ export async function GET(request) {
         console.error("Error in GET /api/category:", error);
         return new Response(JSON.stringify({ error: 'Failed to fetch categories' }), { status: 500 });
     }
+}
+
+export async function POST(request){
+    
 }
